@@ -459,7 +459,7 @@ public class DialogCreateGraph extends JDialog {
 	
 	public void validateField(JTextField valueField, int i, String axis) {
 
-		String message = "<html>Invalid value entered in" + CSS + " Peek " + i + ": " + axis + " value</span>! Only positive integers alowed.";
+		String message = "<html>Invalid value entered in" + CSS + " Peek " + i + ": " + axis + " value</span>! Only positive integers allowed.";
 
 		if (!valueField.getText().equals(axis + " value") && !validateFieldValue(valueField)) {
 			errorMessage.setText(message);
