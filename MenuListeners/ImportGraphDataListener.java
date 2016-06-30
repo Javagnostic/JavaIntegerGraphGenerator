@@ -79,7 +79,7 @@ public class ImportGraphDataListener implements ActionListener {
 	}
 	
 	private void checkIfGraphIsExported(){
-		int actionDialog = chooseFile.showSaveDialog(GraphGeneratorExec.getFrame());
+		int actionDialog = chooseFile.showOpenDialog(GraphGeneratorExec.getFrame());
 		if (actionDialog == JFileChooser.APPROVE_OPTION) {
 			File file = chooseFile.getSelectedFile();
 			prefs.put("DEFAULT_PATH", file.getParent());
