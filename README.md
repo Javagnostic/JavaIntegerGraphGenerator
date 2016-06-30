@@ -1,2 +1,2 @@
 # JavaPolylineGraphGenerator
-Create and edit your polyline graphs (charts). In near future more types of graphs (charts) will be added e.g. vertical/horizontal columns.
+Create and edit your integer graphs (charts). Export graphs in vector .pdf or in .txt data file. Import graph data files for further rendering.
