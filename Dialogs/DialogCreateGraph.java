@@ -563,10 +563,7 @@ public class DialogCreateGraph extends JDialog {
 		}
 		else {
 			if (chartChoice == 0) {
-				axisXMinValue.setText(smallestPeekX + "");
-				axisXMaxValue.setText(biggestPeekX + "");
-				axisYMinValue.setText(smallestPeekY + "");
-				axisYMaxValue.setText(biggestPeekY + "");
+				setAttrMinMaxValues();
 			}
 			else {
 				int bufferX = (biggestPeekX - smallestPeekX) / ((int) attrNodes.getValue() - 1);
